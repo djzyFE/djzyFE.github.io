@@ -1,33 +1,36 @@
-本文主要介绍如何撰写博客并进行提交。
+## 如何在djzyFE撰写并提交博文
 
-[djzyFE](https://github.com/djzyFE/djzyFE.github.io)博客部署在[Github](https://github.com)上，当前域名为[djzyfe.github.io](https://djzyfe.github.io)。
-
-
-
-本博客基于[Jekyll](https://www.jekyll.com.cn)进行搭建。[Jekyll](https://www.jekyll.com.cn)是一个轻量级的静态网站生成框架。[Jekyll](https://www.jekyll.com.cn)会自动将markdown文档转化为静态页面展示。因此，熟悉简单的markdown玩转[Jekyll](https://www.jekyll.com.cn)。另外，[Jekyll](https://www.jekyll.com.cn)的主题样式非常丰富，同时熟悉简单的HTML/CSS就能实现样式的自定义。
+> [djzyFE](https://github.com/djzyFE/djzyFE.github.io)博客部署在[Github](https://github.com)上，当前域名为[djzyfe.github.io](https://djzyfe.github.io)。
 
 
-因此首先需要搭建本地Jekyll环境。
 
+博客基于[Jekyll](https://www.jekyll.com.cn), Jekyll是一个轻量级的静态网站生成框架。它能自动将Markdown文档转化为静态页面。因此熟悉简单的markdown玩转Jekyll。
+
+# 安装运行本地Jekyll系统
+
+## 下载Jekyll：
 ```shell
 gem install jekyll
 ```
+如果下载慢，可以尝试替换国内gem源。
 
-如果下载慢，可以尝试替换gem源，具体可以google。
-
-
-
-`clone`项目源码：
+## 下载项目源码：
 
 ```shell
 git clone git@github.com:djzyFE/djzyFE.github.io.git
 ```
 
+## 编译运行：
+运行`jekyll build` 或者`jekyll build --watch`,生成`_site`目录，博客的内容都会生成在这个目录内。
+
+如果想本地预览，运行`jekyll serve` 或`jekyll serve --watch`, 浏览器访问127.0.0.1:4000。
 
 
-撰写博文
 
-`clone`完之后，我们发现目录下有一个`_posts`的目录，里面存放所有的博文。
+# 博文结构
+
+## 文档命名
+项目中有一个`_posts`的目录，里面存放所有的博文。
 
 每个文档的**必须**以如下形式命名，否则Jekyll无法识别：
 
@@ -41,16 +44,21 @@ yyyy-mm-dd-xxxxxxxxxxx.md
 
 
 
-博文格式
+## 博文格式
 
 博文头部需包含如下内容：
 
 ```yaml
 ---
 layout: post 
-title: 如何撰写博客
-author: 卫东升
-tags: 写作
+title: 如何撰写博客 //举例
+author: 卫东升 //举例
+tags: 写作 //举例
 ---
 ```
+还有一些其他参数，但不是必须的，这里仅列出一定需要的参数。
 
+
+
+# 博客提交
+首先得有一个Github账户，fork本项目(https://github.com/djzyFE/djzyFE.github.io)。每次编写完博客文章之后，审阅通过之后，提交Pull Request。
