@@ -15,7 +15,10 @@ gem install jekyll
 如果下载慢，可以尝试替换国内gem源。
 
 
-### fork djzyfe.github.io到自己的账号之下
+### clone项目
+```
+git clone git@github.com:djzyFE/djzyFE.github.io.git
+```
 
 ### 编译运行
 运行`jekyll build` 或者`jekyll build --watch`,生成`_site`目录，博客的内容都会生成在这个目录内。
@@ -56,6 +59,3 @@ tags: 写作 //举例
 还有一些其他参数，但不是必须的，这里仅列出一定需要的参数。
 
 
-
-## 博客提交
-首先得有一个Github账户，fork本项目[djzyFE.github.io](https://github.com/djzyFE/djzyFE.github.io)。每次编写完博客文章之后，审阅通过之后，提交Pull Request。
