@@ -61,4 +61,4 @@ tags: 写作 //举例
 
 
 ## 博客提交
-首先得有一个Github账户，fork本项目(https://github.com/djzyFE/djzyFE.github.io)。每次编写完博客文章之后，审阅通过之后，提交Pull Request。
+首先得有一个Github账户，fork本项目[djzyFE.github.io](https://github.com/djzyFE/djzyFE.github.io)。每次编写完博客文章之后，审阅通过之后，提交Pull Request。
