@@ -4,7 +4,7 @@
 
 
 
-博客基于[Jekyll](https://www.jekyll.com.cn), Jekyll是一个轻量级的静态网站生成框架。它能自动将Markdown文档转化为静态页面。因此熟悉简单的markdown玩转Jekyll。
+博客基于[Jekyll](https://www.jekyll.com.cn), Jekyll是一个轻量级的静态网站生成框架。它能自动将Markdown文档转化为静态页面。因此熟悉简单的Markdown就能玩转Jekyll。
 
 ## 安装运行本地Jekyll系统
 
