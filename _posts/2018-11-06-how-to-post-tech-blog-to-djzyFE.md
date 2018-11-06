@@ -21,7 +21,6 @@ gem install jekyll
 ```
 如果下载慢，可以尝试替换国内gem源。
 
-![](/img/avatar_m.jpg)
 ### clone项目
 ```
 git clone git@github.com:djzyFE/djzyFE.github.io.git
