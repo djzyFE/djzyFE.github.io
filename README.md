@@ -1,4 +1,4 @@
-## 如何在djzyFE撰写并提交博文
+# 如何在djzyFE撰写并提交博文
 
 > [djzyFE](https://github.com/djzyFE/djzyFE.github.io)博客部署在[Github](https://github.com)上，当前域名为[djzyfe.github.io](https://djzyfe.github.io)。
 
@@ -6,30 +6,30 @@
 
 博客基于[Jekyll](https://www.jekyll.com.cn), Jekyll是一个轻量级的静态网站生成框架。它能自动将Markdown文档转化为静态页面。因此熟悉简单的markdown玩转Jekyll。
 
-# 安装运行本地Jekyll系统
+## 安装运行本地Jekyll系统
 
-## 下载Jekyll：
+### 下载Jekyll：
 ```shell
 gem install jekyll
 ```
 如果下载慢，可以尝试替换国内gem源。
 
-## 下载项目源码：
+### 下载项目源码：
 
 ```shell
 git clone git@github.com:djzyFE/djzyFE.github.io.git
 ```
 
-## 编译运行：
+### 编译运行：
 运行`jekyll build` 或者`jekyll build --watch`,生成`_site`目录，博客的内容都会生成在这个目录内。
 
 如果想本地预览，运行`jekyll serve` 或`jekyll serve --watch`, 浏览器访问127.0.0.1:4000。
 
 
 
-# 博文结构
+## 博文结构
 
-## 文档命名
+### 文档命名
 项目中有一个`_posts`的目录，里面存放所有的博文。
 
 每个文档的**必须**以如下形式命名，否则Jekyll无法识别：
@@ -44,7 +44,7 @@ yyyy-mm-dd-xxxxxxxxxxx.md
 
 
 
-## 博文格式
+### 博文格式
 
 博文头部需包含如下内容：
 
@@ -60,5 +60,5 @@ tags: 写作 //举例
 
 
 
-# 博客提交
+## 博客提交
 首先得有一个Github账户，fork本项目(https://github.com/djzyFE/djzyFE.github.io)。每次编写完博客文章之后，审阅通过之后，提交Pull Request。
