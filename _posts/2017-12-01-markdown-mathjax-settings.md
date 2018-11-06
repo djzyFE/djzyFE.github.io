@@ -48,7 +48,6 @@ $$
 当我们将上面编写好的数学公式通过jekyll编译城静态页面之后，发现页面显示的是这样的：
 
 ![](http://dsweiblog.oss-cn-shanghai.aliyuncs.com/2017-12/jekyll-without-mathjax.jpeg)
-
 原因在于，虽然我们能够在本地编辑器里正常显示数学公式，但由于jekyll在编译解析markdown语法时，缺少对应的插件支持，仍然无法在浏览器里正常显示。
 
 这时候[MathJax](https://www.mathjax.org/)派上用场了！MathJax的就是一个JS的解析数学公式的引擎。它的用法也很简单，直接在页面里引用这个JS文件即可。
