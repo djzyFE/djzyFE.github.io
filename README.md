@@ -21,9 +21,9 @@ git clone git@github.com:djzyFE/djzyFE.github.io.git
 ```
 
 ### 编译运行
-运行`jekyll build` 或者`jekyll build --watch`,生成`_site`目录，博客的内容都会生成在这个目录内。
+运行`jekyll build` 或者`jekyll build --watch`,生成`_site`目录，博客的内容都会生成在这个目录内。
 
-如果想本地预览，运行`jekyll serve` 或`jekyll serve --watch`, 浏览器访问127.0.0.1:4000。
+如果想本地预览，运行`jekyll serve` 或`jekyll serve --watch`, 浏览器访问127.0.0.1:4000。
 
 
 
