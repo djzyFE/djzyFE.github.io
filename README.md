@@ -8,22 +8,22 @@
 
 ## 安装运行本地Jekyll系统
 
-### 下载Jekyll：
+### 下载Jekyll
 ```shell
 gem install jekyll
 ```
 如果下载慢，可以尝试替换国内gem源。
 
-### 下载项目源码：
 
-```shell
+### clone项目
+```
 git clone git@github.com:djzyFE/djzyFE.github.io.git
 ```
 
-### 编译运行：
-运行`jekyll build` 或者`jekyll build --watch`,生成`_site`目录，博客的内容都会生成在这个目录内。
+### 编译运行
+运行`jekyll build` 或者`jekyll build --watch`,生成`_site`目录，博客的内容都会生成在这个目录内。
 
-如果想本地预览，运行`jekyll serve` 或`jekyll serve --watch`, 浏览器访问127.0.0.1:4000。
+如果想本地预览，运行`jekyll serve` 或`jekyll serve --watch`, 浏览器访问127.0.0.1:4000。
 
 
 
@@ -59,6 +59,3 @@ tags: 写作 //举例
 还有一些其他参数，但不是必须的，这里仅列出一定需要的参数。
 
 
-
-## 博客提交
-首先得有一个Github账户，fork本项目(https://github.com/djzyFE/djzyFE.github.io)。每次编写完博客文章之后，审阅通过之后，提交Pull Request。
