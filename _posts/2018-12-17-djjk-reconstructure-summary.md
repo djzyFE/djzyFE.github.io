@@ -15,7 +15,7 @@ tags: 大家健康
 
 
 
-###  Vue版本大家健康项目结构
+##  Vue版本大家健康项目结构
 
 >  基于vue.js + vue-router + vuex
 
