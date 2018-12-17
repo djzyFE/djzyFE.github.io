@@ -90,7 +90,7 @@
                     </li>
                     {% endif %}
                 </ul>
-                <p class="copyright text-muted">
+                <div class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
                     Theme on <a href="{{ site.github_repo }}">GitHub</a> |
@@ -99,7 +99,10 @@
                         frameborder="0" scrolling="0" width="100px" height="20px"
                         src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true" >
                     </iframe>
-                </p>
+                </div>
+                <div class="copyright text-muted">
+                        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275314039'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1275314039%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                </div>
             </div>
         </div>
     </div>
@@ -233,4 +236,3 @@
     });
 </script>
 {% endif %}
-

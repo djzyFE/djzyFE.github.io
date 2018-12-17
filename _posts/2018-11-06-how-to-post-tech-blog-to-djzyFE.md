@@ -5,8 +5,6 @@ author: 卫东升
 tags: 写作
 ---
 
-# 如何在djzyFE撰写并提交博文
-
 > [djzyFE](https://github.com/djzyFE/djzyFE.github.io)博客部署在[Github](https://github.com)上，当前域名为[djzyfe.github.io](https://djzyfe.github.io)。
 
 
@@ -20,7 +18,6 @@ tags: 写作
 gem install jekyll
 ```
 如果下载慢，可以尝试替换国内gem源。
-
 
 ### clone项目
 ```
